@@ -1,0 +1,9 @@
+<mat-card class="dog-card">
+  <img mat-card-image [src]="breed.imgThumb" alt="{{ breed.breedName }}" />
+  <mat-card-content>
+    <h2>{{ breed.breedName }}</h2>
+    <p>{{ breed.breedType }}</p>
+    <p>{{ breed.breedDescription }}</p>
+    <p>Lifespan: {{ breed.minLifeSpan }} - {{ breed.maxLifeSpan }} years</p>
+  </mat-card-content>
+</mat-card>
